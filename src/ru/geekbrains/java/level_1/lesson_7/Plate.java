@@ -7,13 +7,15 @@ public class Plate {
         this.food = food;
     }
 
-    public boolean decreaseFood(int amount) {
+    public void decreaseFood(int amount) {
         if (amount < food) {
             food -= amount;
-            return true;
-        } else {
-            return false;
         }
+
+    }
+
+    public boolean hasEnoughFood(int amount) {
+        return food - amount >= 0;
     }
 
     public void addFood(int amount) {
