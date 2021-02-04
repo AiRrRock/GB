@@ -1,4 +1,4 @@
-package ru.geekbrains.java.core.level_1.lesson_1;
+package ru.geekbrains.java.level_1.lesson_1;
 
 import java.util.Collections;
 
